@@ -1,0 +1,385 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.logo{
+    color:white;
+    font-size: 27px;
+    line-height: 60px;
+    padding-left: 300px;
+    float: left;  
+}
+.menu{
+    float: left;
+    padding-left:380px;
+
+}
+.menu li{
+    float: left;
+    color: white;
+    line-height: 60px;
+   margin-right: 40px;
+    text-transform: uppercase;
+}
+.main{
+    width: 100%;
+    height:calc(100% - 60px);
+    background:url(../img/boy.png) 90% 100%/auto 85% no-repeat ,url(../img/main_bg.jpg) center/cover no-repeat;
+}
+.title__container{
+    float: left;
+    margin: 430px 0px 0px 404px;
+    color:#2c384a;   
+    text-align: center;
+}
+.title__container h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.title__container h4{
+    font-size: 22px;
+    margin:46px 0px 0px 0px;
+    color:#79818d;
+}
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    border-radius: 5px;
+    color:#6d7682;
+    padding: 0px 14px;
+    margin: 58px 15px 0px 15px;     
+}
+.about_me{
+    width: 100%;
+    height: 315px;
+     background: url(../img/h2_underline.jpg) 750px 60px/auto auto no-repeat,url(../img/about_me_boy.png) 690px 90px/auto auto no-repeat,url(../img/about_me_bg.jpg) center/cover no-repeat  ;
+}
+.about_me h2{
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 20px 0px 320px 0px;
+    font-weight: bold;   
+}
+.about_me p{
+    margin-left: 520px;
+    margin-right: 555px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.about_me input{
+    text-align: center;
+    color:#6f707e;
+    border: 2px solid #6f707e;
+    border-radius:5px;
+    margin: 0px 890px 10px 740px;    
+}
+.skills{
+    width: 100%;
+    height: 525px;
+  background:url(../img/sign.png)560px 250px/auto auto no-repeat,url(../img/rocket.png) 955px 250px/auto auto no-repeat ,url(../img/loudspeaker.png) 1340px 250px/auto auto no-repeat,url(../img/laptop.png) 170px 250px/auto auto no-repeat, url(../img/h2_underline.jpg) 755px 100px/auto auto no-repeat,url(../img/skills_bg.jpg) center/cover no-repeat  ;  
+}
+.skills h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 300px 0px 140px 715px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+.skills li{
+    float: left;
+    text-align: center;
+    margin:100px 23px 0px 23px;
+}
+.skills h4{
+    color:#cf7600;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.cases h2{
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #384354;
+    margin-left: 140px;
+}
+.cases{
+    background: url(../img/h2_underline.jpg) 55% 5%/auto auto no-repeat , url(../img/cases_pickture.png) 142% 50%/auto auto no-repeat;
+    height: 1080px;
+    width:1440px;
+}
+#comment{
+    font-size: 15px;
+    text-align: center;
+    margin:73px 0px 44px 160px;
+    color: #3f495a;
+    font-weight: 400;
+}
+#company_h5{
+    font-size:20px;
+    margin: 635px 0px 0px 230px;
+    font-weight: 600;
+    color: #384354;
+}
+#company{
+    color:#636a76;
+    margin-left: 230px;
+}
+#website_cases{
+    margin: 15px 0px 0px 230px;
+    color: #384354;
+    font-size:20px;
+    font-weight: 600;
+}
+#website{
+     color:#636a76;
+    margin: 15px 0px 0px 230px;
+    
+}
+.cases input{
+    border: 5px solid #63b5ae;
+    margin-left: 230px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #63b5ae;
+    color: white;
+    padding: 12px 20px;
+}
+#project_h5{
+    margin: -130px 0px 0px 430px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #384354;
+}
+#project{
+    margin-left: 430px;
+    margin-top: 10px;
+    color: #384354;
+    line-height:20px;
+}
+.price{
+    height: 500px;
+    width:auto;
+    background: url(../img/price_line.jpg) 35% 95%/auto auto no-repeat;
+}
+.price h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin:0px 40px 55px 0px;
+}
+.price h3{
+    margin-left: 300px;
+    margin-bottom: 11px;
+    margin-top: 11px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400px;
+}
+.price select{
+    margin-left: 300px;
+    margin-top: 11px;
+     margin-bottom: 11px;
+    height:60px;
+}
+.price p{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.stats{
+    height:400px;
+    width: 1680px;
+    background: url(../img/h2_underline.jpg) 44% 30%/ auto auto no-repeat ,url(../img/stats_bg.jpg) center/cover no-repeat;
+}
+.stats h2{
+    text-align:center;
+    margin-top: 100px;
+    margin-right: 170px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 80px;
+}
+.stats li{
+    text-align:center;
+    float: left;
+    margin: 130px 0px 0px 215px;
+}
+.reviews{
+    height:450px;
+    width: 1680;
+    background: url(../img/h2_underline.jpg) 47% 15%/ auto auto no-repeat;
+}
+.reviews h2{
+    margin-top: 110px;
+    margin-right: 93px;
+    text-align: center;
+    text-transform: uppercase;   
+    font-size: 25px;
+}
+#photo_client1{
+   margin:110px 690px 10px 690px;
+}
+.reviews p{
+    text-align: center;
+    margin-right: 100px;
+    margin-top:40px
+}
+.contacts{
+    height:800px;
+    width: 1680px;
+    background:url(../img/h2_underline.jpg) 43% 14.5%/auto auto no-repeat,url(../img/convert.png) 43% 29%/auto auto no-repeat,url(../img/geo.png) 29% 29%/auto auto no-repeat,url(../img/phone.png) 56.5% 29%/auto auto no-repeat ,url(../img/contacts_bg.jpg) 93% 100%/auto auto ;
+}
+.contacts h2{
+   margin:0px 630px 70px 630px;
+    padding-top: 60px;
+    font-size:24px;
+    text-transform: uppercase;
+    color:white;
+    font-weight:600;
+}
+.contacts p{
+    text-align: center;
+    margin-right: 190px;
+    color:white;
+}
+.contacts li{
+    text-align:center;
+    float:left;
+    margin:100px 50px 50px 50px;
+    color: white;
+}
+.contacts ul{
+    padding-left: 370px;
+}
+.contacts h3{
+    margin-top: 200px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    margin-right: 210px;  
+}
+.contacts_share_contacts{
+    height: 150px;
+    width: 890px;
+    margin-left: 300px;
+}
+#contacts_name{
+    margin-top: 45px;
+    width:400px;
+    height: 30px;
+}
+#contacts_email{
+    width:400px;
+    height: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+#sending_button{
+    margin-top: 26px;
+    margin-left: 380px;
+    border-radius: 5px;
+    padding: 20px 20px 15px 20px;
+    color:white;
+    background-color: #0e1929;
+    border: #ffffff 2px solid;
+}
+#map{
+   width: 1680px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
